@@ -1,0 +1,86 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+.md-button.md-fab {
+  line-height: 48px;
+  min-width: 0;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background-color: #0093D8;
+}
+.icons-container{
+  .grid{
+    text-align: center;
+    margin-bottom: 1em;
+    &.large-grid{
+      display: none;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .item{
+    text-align: center;
+    display: inline-block;
+    padding: 0 1em;
+    i{
+      margin: 0 auto 5px;
+      width: 60px;
+      line-height: 60px;
+      color: $blue;
+      display: block;
+      font-size: 2.5em;
+      @include circle-items;
+      border: 1px solid $blue;
+    }
+    h1 {
+      font-size: 1.23em;
+      color: $blue;
+    }
+    &.promociones {
+      i{
+        border: 1px solid $red;
+        //background: $red;
+        color: $red;
+      }
+      h1{
+        color: $red;
+      }
+    }
+    &.ocultar {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 520px) and (max-width: 768px) {
+  .icons-container{
+    .item{
+      margin: 0 1.6em;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .icons-container{
+    .item{
+      margin: 0 5em;
+    }
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1600px) {
+  .icons-container{
+    .grid {
+      &.small-grid{
+        display: none;
+      }
+      &.large-grid {
+        display: block;
+      }
+    }
+    .item{
+      margin: 0 3em;
+    }
+  }
+}

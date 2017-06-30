@@ -1,0 +1,29 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+
+
+footer{
+	padding-top: 1em;
+    text-align: center;
+    h1{
+        font-size: 1.85em;
+        color: $blue;
+        .material-icons {
+            font-size: 1.16em;
+            top: 0.2em;
+            position: relative;
+            @include circle-items;
+            color: $blue;
+            line-height: 40px;
+            width: 40px;
+            border: 1px solid $blue;
+        }
+    }
+	p{
+		margin: 6px 0;
+        span {
+            font-size: 1.4em;
+        }
+	}
+}
