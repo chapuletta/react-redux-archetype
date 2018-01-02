@@ -1,6 +1,6 @@
 {
-  "name": "Avantrip",
-  "short_name": "Avantrip",
+  "name": "Mobile",
+  "short_name": "Mobile",
   "icons": [{
     "src": "./images/touch/icon-128x128.png",
     "sizes": "128x128",
