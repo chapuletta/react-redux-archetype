@@ -19,14 +19,14 @@
     font-weight: 400;
     font-style: normal;
 }
-// AVANTRIP DESKTOP FONT
+// MOBILE DESKTOP FONT
 @font-face {
-    font-family: 'avantrip-desktop';
-    src: url('fonts/avantrip.eot');
-    src: url('fonts/avantrip.eot#iefix') format('embedded-opentype'),
-        url('fonts/avantrip.ttf') format('truetype'),
-        url('fonts/avantrip.woff') format('woff'),
-        url('fonts/avantrip.svg#avantrip') format('svg');
+    font-family: 'mobile-desktop';
+    src: url('fonts/mobile.eot');
+    src: url('fonts/mobile.eot#iefix') format('embedded-opentype'),
+        url('fonts/mobile.ttf') format('truetype'),
+        url('fonts/mobile.woff') format('woff'),
+        url('fonts/mobile.svg#mobile') format('svg');
     font-weight: normal;
     font-style: normal;
 }
